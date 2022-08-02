@@ -71,3 +71,11 @@ Properties adalah fitur yang sudah disediakan oleh Javascript untuk memudahkan d
 3. Index
 4. Input
 5. prototype. 
+
+### __E. Array Method__ <br>
+Array memiliki __built-in methods__ tidak perlu membuat function lagi jika method yang kita butuhkan sudah tersedia. Contoh Array Built-in Methods
+1. __push()__ -> menambahkan item array baru pada urutan yang __paling akhir__.
+2. __pop()__  -> menghapus array pada index __terakhir / paling bawah__.
+3. __shift()__ ->menghapus array pada index __pertama / paling atas__.
+4. __unshift()__ -> menambahkan array pada index __petama / paling atas__.
+5. __sort()__ -> mengurutkan array secara __Ascending atau Descending Alphanumeric__.
