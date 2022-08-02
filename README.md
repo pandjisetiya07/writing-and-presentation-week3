@@ -64,3 +64,10 @@ console.log(cars3)
 
 // ['tesla','honda','nissan']
 ```
+### __D. Array Properties__ <br>
+Properties adalah fitur yang sudah disediakan oleh Javascript untuk memudahkan developer.Arrray memiliki 5 Properties yang sering digunakan yaitu : 
+1. Constructor
+2. Length
+3. Index
+4. Input
+5. prototype. 
