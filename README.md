@@ -36,3 +36,14 @@ let dataRandom = ['ini string', 07, true];
 console.log(dataRandom);
 ```
 Penghitungan array di mulai dari __index ke-0__. Data pertama yang ada pada array adalah __index ke-0__ 
+
+### __B. Update Array__ <br>
+Untuk tipe data array juga dapat diupdate sama seperti jenis tipe data dan variabel lainnya.
+contoh penulisan code untuk update array 
+```
+let updateArray = ['materi update pertama', 'writing week 2'];
+
+updateArray[1] = 'writing week 3';
+console.log(updateArray)
+//hasilnya ['materi update pertama', 'writing week 3'];
+```
