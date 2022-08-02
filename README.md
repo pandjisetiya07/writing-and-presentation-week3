@@ -47,3 +47,20 @@ updateArray[1] = 'writing week 3';
 console.log(updateArray)
 //hasilnya ['materi update pertama', 'writing week 3'];
 ```
+
+### __C. Const in array__ <br>
+Jika array menggunakan _let_ kita dapat merubah array dengan nilai array baru. pada _CONST_ kita tidak bisa melakukan update data, namun dapat mengupdate konten nilai didalam array. __Yang tidak bisa adalah mengubah array dengan array yang baru jika menggunakan const__
+```
+let cars3 = ['tesla','honda','yamaha']
+cars3[2] = ['nissan']
+console.log(cars3)
+
+// hasilnya
+// ["tesla", "honda", Array(1)]
+// 0: "tesla"
+// 1: "honda"
+// 2: Array(1) --> hasil conts array
+// 0: "nissan" --> hasil conts array
+
+// ['tesla','honda','nissan']
+```
