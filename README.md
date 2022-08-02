@@ -79,3 +79,26 @@ Array memiliki __built-in methods__ tidak perlu membuat function lagi jika metho
 3. __shift()__ ->menghapus array pada index __pertama / paling atas__.
 4. __unshift()__ -> menambahkan array pada index __petama / paling atas__.
 5. __sort()__ -> mengurutkan array secara __Ascending atau Descending Alphanumeric__.
+
+### __F. Looping Array__ <br>
+Array memiliki __built-in methods__ untuk melakukan looping yaitu __.map() dan .forEach()__ untuk mengetahui kapan menggunakan looping kedua methods ini ? 
+1. __forEach()__ -> melakukan perulangan pada setiap element array yang sudah di sediakan
+```
+const cars = ['tesla','honda','yamaha']
+cars.forEach(element => {
+    console.log(element);
+});
+```
+2. __map()__ -> melakukan perulangan dengan membuat array baru
+```
+let nomor = [2,4,6,8,10]
+let doubel = nomor.map(num => {
+    return num + 2
+})
+console.log(doubel)
+
+//hasil [4, 6, 8, 10, 12]
+```
+Perbedaannya adalah <br>
+- .forEach tidak dapat membuat Array baru dari hasil operasi yang ada dalam looping Jadi, gunakan .forEach() jika hanya memerlukan looping untuk menampilkan saja atau menyimpan ke database. <br>
+- .map() jika akan melakukan operasi pada array seperti yang dapat mengubah nilai array sebelumnya.
