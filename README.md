@@ -4,7 +4,7 @@ __PANDJI SETIYA BUDHI ARTHA__ -- _Tugas writing minggu ketiga_
 
 | __No__ | __Materi untuk minggu ketiga__ | 
 |----|-----------------------------|
-|  1 | JavaScript - Array & Multidimensional Array |
+|  1 | JavaScript - Array  |
 |  2 | JavaScript - Object        |
 |  3 | JavaScript - Rekursif      |
 |  4 | JavaScript - Modules       |
@@ -13,7 +13,7 @@ __PANDJI SETIYA BUDHI ARTHA__ -- _Tugas writing minggu ketiga_
 
 --------------------------------------------------------------------------------------------
 
-## 1. JavaScript - Array & Multidimensional Array <br>
+## 1. JavaScript - Array <br>
 
 ### __A. JavaScript - Array__ <br>
 List order yang dapat menyimpan __tipe data apapun__ di dalamnya, seperti __String, Number, Boolean, dan lainnya.__ Contoh penulisan array :
@@ -102,3 +102,25 @@ console.log(doubel)
 Perbedaannya adalah <br>
 - .forEach tidak dapat membuat Array baru dari hasil operasi yang ada dalam looping Jadi, gunakan .forEach() jika hanya memerlukan looping untuk menampilkan saja atau menyimpan ke database. <br>
 - .map() jika akan melakukan operasi pada array seperti yang dapat mengubah nilai array sebelumnya.
+
+------------------------------------------------------------------------------------------
+## 2. JavaScript - Object <br>
+sebuah kumpulan nilai yang disebut properti dapat berupa string. Dan nilai properti dapat berupa nilai apa pun, misalnya string, angka, array, dan bahkan fungsi.
+```
+let address = {
+    'building no': 3960,
+    street: 'North 1st street',
+    state: 'CA',
+    country: 'USA'
+};
+```
+object kita dapat menyimpan properti dengan tipe data apapun. kita juga dapat menggunakan __Bracket Natation__ bisa digunakan untuk memanggil properti dari sebuah object seperti
+```
+let address = {
+    'building no': 3960,
+    street: 'North 1st street',
+    state: 'CA',
+    country: 'USA'
+};
+console.log(address['state'])//maka akan muncul "CA"
+```
