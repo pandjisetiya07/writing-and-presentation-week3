@@ -8,7 +8,6 @@ __PANDJI SETIYA BUDHI ARTHA__ -- _Tugas writing minggu ketiga_
 |  2 | JavaScript - Object        |
 |  3 | JavaScript - Rekursif      |
 |  4 | JavaScript - Regex & OOP   |
-|  5 | JavaScript - Asynchronous, API and HTTP  |
 
 --------------------------------------------------------------------------------------------
 
