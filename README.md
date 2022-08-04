@@ -186,3 +186,33 @@ Contoh kasus Regex :
 2. Mencari keyword tertentu pada email atau halaman web
 3. Mencari IP address dalam kisaran tertentu, dan masih banyak lagi
 
+__A. Literals__
+adalah konsep regex yang paling sederhana dimana kita membuat regex sesuai dengan text yang ingin kita cari/match atau mengandung text yang kita cari.
+
+__B. test()__ yaitu mengembalikan nilai BOOLEAN (TRUE/FALSE) untuk kecocokan sebuat text yang dicari.
+```
+let regex = new RegExp('pandjiartha')
+console.log(regex.test(pandjiartha'))
+// maka akan muncul nilai "TRUE"
+
+let regex2 = new RegExp('pandjiartha')
+console.log(regex.test(pandji'))
+// maka akan muncul nilai "FALSE"
+
+//menggunakan karakter set
+//Kita bisa menggunakan karakter set untuk mencari
+//minimal 1 karakter yang sesuai.
+//Karakter set menggunakan bracket square []
+
+let regexExp = new RegExp('a-z')
+console.log(regexExp.test('chi'))
+//maka akan bernilai "TRUE"
+
+let regexExp = new RegExp('1-5')
+console.log(regexExp.test('243'))
+//maka akan bernilai "TRUE"
+
+let regexExp = new RegExp('a-c')
+console.log(regexExp.test('abd'))
+//maka akan bernilai "FALSE"
+```
