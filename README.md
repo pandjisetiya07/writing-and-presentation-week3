@@ -149,7 +149,27 @@ country: "USA"
 name: "Pandji, KSB"
 state: "CA"
 street: "North 1st street"
-
 ```
 Jadi jika membutuhkan untuk update seluruh data object gunakan ‘let’ pada saat deklarasi variabel. Jika menggunakan constant pada variable object. Kita tidak bisa mengganti seluruh data object dengan object yang baru.
+
+- __Delete Object Property__ <br>
+Kita dapat menghapus properti dari object menggunakan delete operator, seperti contoh sebagai berikut : 
+```
+let address = {
+    building-no: 3960,
+    street: 'North 1st street',
+    state: 'CA',
+    country: 'USA'
+};
+delete address.state 
+
+console.log(address)
+
+//hasilnya 
+
+building: 3960
+country: "USA"
+street: "North 1st street"
+```
+
 
