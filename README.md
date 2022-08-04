@@ -171,5 +171,10 @@ building: 3960
 country: "USA"
 street: "North 1st street"
 ```
+--------------------------------------------------------------------------------------------
+## __3. JavaScript - Rekursif__ <br>
+Recursive adalah function yang memanggil dirinya sendiri sampai kondisi tertentu. Ciri dari rekursif:
 
+1. Fungsi rekursif selalu memiliki kondisi yang menyatakan kapan fungsi tersebut berhenti. Kondisi ini harus dapat dibuktikan akan tercapai, karena jika tidak tercapai maka kita tidak dapat membuktikan bahwa fungsi akan berhenti, yang berarti algoritma kita tidak benar.
 
+2. Fungsi rekursif selalu memanggil dirinya sendiri sambil mengurangi atau memecahkan data masukan setiap panggilannya. Hal ini penting diingat, karena tujuan utama dari rekursif ialah memecahkan masalah dengan mengurangi masalah tersebut menjadi masalah-masalah kecil.
