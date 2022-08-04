@@ -7,9 +7,8 @@ __PANDJI SETIYA BUDHI ARTHA__ -- _Tugas writing minggu ketiga_
 |  1 | JavaScript - Array  |
 |  2 | JavaScript - Object        |
 |  3 | JavaScript - Rekursif      |
-|  4 | JavaScript - Modules       |
-|  5 | JavaScript - Regex & OOP   |
-|  6 | JavaScript - Asynchronous, API and HTTP  |
+|  4 | JavaScript - Regex & OOP   |
+|  5 | JavaScript - Asynchronous, API and HTTP  |
 
 --------------------------------------------------------------------------------------------
 
@@ -178,3 +177,12 @@ Recursive adalah function yang memanggil dirinya sendiri sampai kondisi tertentu
 1. Fungsi rekursif selalu memiliki kondisi yang menyatakan kapan fungsi tersebut berhenti. Kondisi ini harus dapat dibuktikan akan tercapai, karena jika tidak tercapai maka kita tidak dapat membuktikan bahwa fungsi akan berhenti, yang berarti algoritma kita tidak benar.
 
 2. Fungsi rekursif selalu memanggil dirinya sendiri sambil mengurangi atau memecahkan data masukan setiap panggilannya. Hal ini penting diingat, karena tujuan utama dari rekursif ialah memecahkan masalah dengan mengurangi masalah tersebut menjadi masalah-masalah kecil.
+
+--------------------------------------------------------------------------------------------
+## __4. JavaScript - Regex & OOP__ <br>
+Regex adalah susunan karakter/deretan karakter spesial yang menggambarkan pattern/pola untuk pencarian text pada sebuah string atau document. Regex = Text matching. <br>
+Contoh kasus Regex :
+1. Validasi input dari sebuah FORM
+2. Mencari keyword tertentu pada email atau halaman web
+3. Mencari IP address dalam kisaran tertentu, dan masih banyak lagi
+
