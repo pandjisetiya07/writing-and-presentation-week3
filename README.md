@@ -124,3 +124,32 @@ let address = {
 };
 console.log(address['state'])//maka akan muncul "CA"
 ```
+
+- __Update Object__ <br>
+Kita juga dapat melakukan __update object__ pada variabel dengan tipe data object. <br> Object dapat mengupdate value dari key yang sudah tersedia, Object dapat menambahkan key dan value baru 
+```
+let address = {
+    building-no: 3960,
+    street: 'North 1st street',
+    state: 'CA',
+    country: 'USA'
+};
+//update value yang sudah ada di object
+address.building-no = 30
+
+//update new key and value
+address.name = 'Pandji, KSB'
+
+console.log(address); 
+
+//maka hasilnya akan muncul
+
+building: 30
+country: "USA"
+name: "Pandji, KSB"
+state: "CA"
+street: "North 1st street"
+
+```
+Jadi jika membutuhkan untuk update seluruh data object gunakan ‘let’ pada saat deklarasi variabel. Jika menggunakan constant pada variable object. Kita tidak bisa mengganti seluruh data object dengan object yang baru.
+
