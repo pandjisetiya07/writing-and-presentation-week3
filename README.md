@@ -216,3 +216,13 @@ let regexExp = new RegExp('a-c')
 console.log(regexExp.test('abd'))
 //maka akan bernilai "FALSE"
 ```
+__B. match()__ match() sama seperti test() yaitu sebuah method bawaan dari javascript. Namun match() mengembalikan nilai array dari karakter yang match.
+
+
+## __JavaScript - OOP__ <br>
+Object Oriented Programming (OOP) adalah suatu paradigma dalam pemrograman. Ada 4 hal pilar dalam OOP:
+1. Encapsulation -> adalah cara untuk membatasi akses langsung ke properti atau method dari sebuah objek.
+2. Abstraction -> adalah sebuah teknik untuk menyembunyikan detail tertentu dari sebuah objek/method dan hanya menampilkan fungsionalitas atau fitur penting dari objek tersebut.
+3. Inheritance -> adalah sebuah proses dimana sebuah class mewariskan property dan methodnya ke class lain atau childnya.
+4. Polymorpishm -> berasal dari dua kata, yaitu poly yang berarti banyak dan morphism yang berarti bentuk. kemampuan dari suatu objek untuk memiliki banyak bentuk
+-----------------------------------------------------
